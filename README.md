@@ -5,13 +5,13 @@
 ## Description
 { This application will allow user know their Akan Names based on their birth days}
 ## Setup/Installation Requirements
-* No requirement
+* Installation of chrome browser
 
 ## Known Bugs
 {There are no bugs }
 ## Technologies Used
 {HTML,CSS,JAVASCRIPT}
 ## Support and contact details
-{Should you detect any issue feel free to make contribution}
+{Should you detect any issue feel free to make contribution;my email address is:otienoedgar80@gmail.com}
 ### License
 *{MIT LICENCE}*
