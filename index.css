@@ -7,6 +7,27 @@ body {
         border: thick;
     }
 
+    .Male-names {
+        width: 300px;
+        height: 200px;
+        border: 2px solid rgb(159, 240, 9);
+        position: absolute;
+            left: 500px;
+            top: 500px;
+        border-radius: 12.5%
+    }
+
+
+        .Female-names {
+            width: 300px;
+            height: 200px;
+            border: 2px solid rgb(159, 240, 9);
+            position: absolute;
+              left: 950px;
+              top: 500px;
+            border-radius: 12.5%
+        }
+
 
 
 
