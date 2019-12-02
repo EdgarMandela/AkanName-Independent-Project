@@ -33,7 +33,13 @@ function validateCentuary() {
     var month = document.getElementById('month').value;
     var year = document.getElementById("year").value;
     var century = document.getElementById("Centuary").value;
-    
+    var gender;
+    var ele = document.getElementsByName('gender');
+  
+    for (i = 0; i < ele.length; i++) {
+      if (ele[i].checked)
+        gender = ele[i].value;
+  
     }
   
   
