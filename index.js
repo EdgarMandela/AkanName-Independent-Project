@@ -47,12 +47,12 @@ function validateCentuary() {
    if (gender == "male") {
     var d = " " + male[Math.floor(dayOfTheWeek)] + "   :: " + days[Math.floor(dayOfTheWeek)];
     document.getElementById("name").innerHTML = d;
-    console.log(d);
+    
   }
   else {
     var d = " " + female[Math.floor(dayOfTheWeek)] + "    :: " + days[Math.floor(dayOfTheWeek)];
     document.getElementById("name").innerHTML = d;
-    console.log(d);
+    
   }
 }
 
