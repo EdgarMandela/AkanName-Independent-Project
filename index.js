@@ -39,6 +39,12 @@ function validateCentuary() {
     for (i = 0; i < ele.length; i++) {
       if (ele[i].checked)
         gender = ele[i].value;
+   var dayOfTheWeek = (((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + date) % 7;
+   var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+   var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
+   var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
+ 
+
   
     }
   
