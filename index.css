@@ -1,0 +1,12 @@
+body {
+        
+    background: repeating-linear-gradient(
+        180deg,
+        white,
+        DarkSlateGray 500px);
+        border: thick;
+    }
+
+
+
+
