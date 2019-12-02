@@ -15,8 +15,14 @@ if ((month <= 0) || (month > 12)) {
 
 function validateCentuary() {
     var centuary = document.getElementById("Centuary").value;
-    console.log("++++++++++++validation running value= " + centuary);
     if ((centuary <= 0) || (centuary > 99)) {
+      alert("invalid centuary ! please enter number between 1 - 99");
+    }
+  }
+
+  function validateYear() {
+    var year = document.getElementById("year").value;
+    if ((year <= 0) || (year > 99)) {
       alert("invalid centuary ! please enter number between 1 - 99");
     }
   }
